@@ -1,0 +1,92 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* from -moz-box-sizing ,moz is  mozilla vender prefix-same for webkit */
+}
+
+/* html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /* this prevents iphone's and windows from enlarging fonts from portrait to landscape phone modes */
+    /* These are placed in normalize file,but if not normalize file is used in a project-insert this manually */
+    /* normalize file -line 14 and 15 */
+/*} */
+
+/* body rules here */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* header rules here */
+header {
+    background-color: #17a8e4;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+/* navigation rules here */
+nav {
+    background-color:#111;
+}
+
+nav ul {
+    margin: 0; /*this removes the top space between the h2 header and nav bar created by ul element */
+    padding: 0; 
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    padding: 0.8rem 0;  /*44 min height */
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li.active {
+    background-color:#333;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+main {
+    padding: 1rem 2%;
+    display:block; /*this tells all browsers especially old ones to always display main as a block element*/
+}
+
+main h1 {
+    color:#17a8e4;
+}
+
+main figure img {
+    width: 100%; /*This tells the image to occupy all space in the figure element - This is a must!*/
+}
+
+main figure {
+    width:100%; /*This tells figure element to take all space it have take in given size its placed in */
+    margin:0; /* this removes the default margin of the figure element,thereby removing unwanted space on the left */
+}
+
+main figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #17a8e4;
+    padding:1rem 2%;
+}

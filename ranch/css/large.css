@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1028px) {
+
+    nav ul {
+        padding-left: 2%;
+    }
+    nav ul li {
+        flex-basis: auto;
+    }
+
+    nav li a {
+        padding: 0.5rem 1rem;
+    }
+
+    div.news {
+        column-count: 3;
+    }
+
+}/* end of media query*/
+
+header, nav, main, footer {  /*remove and add header,nav,main,footer to have different layout views in large screen */
+    max-width: 75rem; /* 1200px */
+    margin:auto;
+}

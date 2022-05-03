@@ -1,0 +1,42 @@
+@media only screen and (min-width: 35em) {
+
+        header {
+            border-radius: 15px;
+            box-shadow: 0 0 20px #777;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align:left;
+        }
+
+        main section h2 {
+            font-size: 2rem;
+            
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+
+        .my-image img {
+            border-radius: 20px;
+            width: 200px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            margin-left:25px;
+        }
+
+        main section ul li {
+            margin-left: 30px;
+            padding: 3px;
+        }
+
+        footer {
+            margin-top: 35px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #777;
+        }
+
+}
