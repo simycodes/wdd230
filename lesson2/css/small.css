@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* from -moz-box-sizing ,moz is  mozilla vender prefix-same for webkit */
+}
+
+:root {
+    --ff-primary:'Open Sans',sans-serif;
+    --ff-secondary: "Roboto", sans-serif;
+    --radius: 0.5rem;
+
+    --spacing: 0.11rem;
+    --spacing-two: 0.18rem;
+    --spacing-three: 0.25rem;
+}
+
+/* body rules here */
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.25;
+    font-family: 'Open Sans',Helvetica, sans-serif;
+}
+
+
+
+/* header rules here */
+header {
+    background-color: #471451;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color:#fff;
+    font-family: 'Satisfy',cursive;
+    font-size: 2.8rem;
+}
+
+header h2 {
+    margin: 0;
+    text-align: center;
+    color:#fff;
+}
+
+/* main style rules */
+
+main {
+    padding: 1rem 2%;
+    display:block; 
+}
+
+.design-items-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+main section {
+    border: 1px solid #471451;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    background-color: #EBEBEB;
+}
+
+main section h3 {
+    color:#fff;
+    font-size: 1.6rem;
+    background-color: #471451;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    margin:0;
+    font-family: 'Satisfy',cursive;
+}
+
+main section h4,p,a {
+    margin-left: 0.8rem;
+}
+
+main section p {
+    margin-right: 0.8rem;
+    font-weight: 500; /*300 is light,400 is normal regular,500 is medium and 600 is semi bold*/
+}
+
+main section figure img {
+    width: 100%; 
+}
+
+main section figure{
+    margin:0.7rem;
+}
+
+
+
+
+/* footer style rules */
+footer {
+    font-size: 1rem;
+    margin-top: 25px;
+    background-color: #471451;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+}
+
