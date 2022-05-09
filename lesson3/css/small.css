@@ -1,0 +1,177 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+:root {
+    /* colors for the palette */
+    --primary-color: #E3E4E5;
+    --secondary-color: #4FD0E0;
+    --accent1-color: #4F0540;
+    --accent2-color: #0286B4;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 1.1rem;
+    font-family: Helvetica, sans-serif;
+    background-color:#FEFEFE;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #4FD0E0;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+header div {
+    margin-left: 20px
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+} 
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color:#4F0540;
+    font-size: 1.7rem;
+}
+
+header h2 {
+    margin: 0; 
+    text-align: center;
+    color: #4F0540;
+    font-size: 1rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #768F9C;
+    box-shadow: 0 0 20px #777;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #FEFEFE;
+    padding: .5rem 0;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+nav ul li a:hover {
+    background-color: #4FD0E0;
+    color: #FEFEFE;
+}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main p {
+    line-height: 1.3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main div {
+    margin-left:0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border:1px solid #0196ED;
+    padding: 0.6rem;
+    background-color: #E3E4E5;
+}
+
+
+main li {
+    margin: 0.6rem;
+}
+
+.reduce {
+    margin-bottom: -10px;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #4FD0E0;
+    color: #4F0540;
+    padding: .5rem 2%;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.active {
+    color: #FEFEFE;
+    background-color: #4F0540;
+}
+
+.colors-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.colors {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px dotted #4F0540;
+    padding: 0.1rem;
+    background-color: white;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
