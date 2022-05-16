@@ -1,0 +1,57 @@
+< !-- FOOTER HERE --><footer><img src="images/logo.png" alt="logo" class="footerLogo"><div class="footerAddress"><p>The Ndola City Chamber of Commerce</p><p>28 Tusha Avenue Town Center</p><p>Ndola,
+Copperbelt,
+Zambia(10101)</p></div><div class="leftInfor"><p><a href="mailto:getintouch@thendolacitychamberofcommerce.org" target="_blank">getintouch@thendolacitychamberofcommerce.org</a></p><p><a href="tel:+260974372761" target="_blank">+(260) 97-437-2761</a></p><p class="mapLink"><a href="#">Link to Map</a></p></div><div class="copyRightInfor"><p>&copy;
+<span id="yearOnly"></span>The Ndola City Chamber of Commerce | Simon Mule | WDD 230 Project | Last Modification <span id="lastUpdate"></span></p></div></footer>
+
+
+
+
+/*----------- FOOTER --------------*/
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 150px 350px auto auto;
+}
+
+.footerLogo {
+    grid-column: 1/2;
+    width: 150px;
+}
+
+.footerAddress {
+    grid-column: 2/3;
+    text-align: left;
+}
+
+.leftInformation {
+    grid-column: 3/5;
+    text-align: right;
+    /* margin-right:-3.5rem; */
+}
+
+.copyRightInformation {
+    grid-column: 2/5;
+    color: #FEFEFE;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+footer div {
+    margin-top: .6rem;
+    margin-left: 20px
+}
+
+footer p {
+    margin-bottom: -10px;
+}
+
+.leftInformation a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.mapLink {
+    margin-top: 3rem;
+    /* margin-left:18.5rem; */
+}

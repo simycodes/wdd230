@@ -1,0 +1,101 @@
+/* 39em is also 624px (if basefont is 16px) */
+
+@media only screen and (min-width: 38rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header {
+    box-shadow: 0 0 20px #999;
+}
+
+header h1 {
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+}
+
+header h2 {
+    margin: 0;
+    color: #4F0540;
+    font-size: 1rem;
+}
+
+.top-date {
+    font-size: 1.1rem;
+}
+/*----------- NAVIGATION --------------*/
+
+    /* nav ul {
+        display: flex;
+        margin-left: 2%;
+    }
+
+    nav ul li a{padding: .5rem 1rem;} */
+
+    /*----------- code for the toggle menu functionality --------------*/
+    
+        nav button {
+            display: none;
+        }
+    
+        nav ul#primaryNav {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 2vw;
+        }
+    
+        nav ul li a {
+            padding: .5rem 1rem;
+        }
+
+
+/*----------- MAIN --------------*/
+main h1 {
+    letter-spacing: 0.2rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+}
+.colors-grid {
+    display: block;
+    grid-template-columns: 800px auto;
+}
+
+main div {
+    padding: 1rem;
+}
+
+
+/*----------- FOOTER --------------*/
+footer p {
+    font-size: .9rem;
+}
+
+.footerGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    flex: 1 130px;
+    margin-left: -1.3rem;
+}
+
+.footerAddress {
+    flex: 1 350px;
+    text-align: left;
+    margin-top: .2rem;
+}
+
+.leftInformation {
+    flex: 5 200px;
+    text-align: right;
+    margin-left: 2rem;
+}
+
+} /* end of media query */
