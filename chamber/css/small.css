@@ -16,17 +16,21 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 1.1rem;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color:#FEFEFE;
 }
 
 
 /*----------- HEADER --------------*/
 header {
+    background-color: #4FD0E0;
+}
+
+.header-grid {
     padding: .5rem 2%;
     background-color: #4FD0E0;
     display: grid;
-    grid-template-columns: 130px auto;
+    grid-template-columns: 130px auto auto;
 }
 
 header div {
@@ -57,10 +61,32 @@ header h2 {
     color: #4F0540;
 }
 
+header p {
+    font-size: 1rem;
+    margin-bottom: .6rem;
+    color: #FEFEFE;
+}
+
 .logo {
     width: 130px;
 }
 
+#display-message {
+    text-align:center;
+    color: #4F0540;
+    font-weight: bold;
+    padding: 0.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hide-me {
+    display: none;
+}
+
+.show-me {
+    display: block;
+}
 
 /*----------- NAVIGATION --------------*/
 
@@ -107,7 +133,6 @@ nav button {
     color: #4F0540;
 }
 
-
 nav ul {
     display: none;
 }
@@ -144,20 +169,77 @@ main h2 {
     font-size: 1rem;
 }
 
-/* main p {
-    line-height: 1.3rem;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-} */
+main p {
+    font-size: 1rem;
+} 
 
 main div {
     margin-bottom: 1rem;
     border:1px solid #0196ED;
     padding: 0.4rem;
-    background-color: #E3E4E5;
+    /* background-color: #E3E4E5; */
 }
 
+main figure img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
 
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+/* grid related css for the main section */
+.home-grid {
+    display: block;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.join {
+    display:none;
+}
+
+/* css for the information inside the hero banner image */
+main h2,
+p,
+img {
+    margin-left: 0.5rem;
+}
+
+.information {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    border: 1px solid #0196ED;
+    padding: 0.1rem;
+    color: #FEFEFE;
+}
+
+.information button {
+    text-align: center;
+    margin-left: 85px;
+    padding: 0.2rem;
+    border-radius: 6px;
+    
+}
+
+.call-to-action {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: #FEFEFE;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
 
 /*----------- FOOTER --------------*/
 
