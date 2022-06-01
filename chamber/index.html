@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/938ad39e22.js" crossorigin="anonymous"></script>
 
 
 <title>Discover(Home Page): The Ndola City Chamber of Commerce</title>
@@ -39,7 +40,7 @@
 	<header>
         <p id="display-message">🤝🏼 Come join us for the chamber meet and greet on Wednesday at 7:00 p.m</p>
         <div class="header-grid">
-            <img src="images/logo.png" alt="logo" class="logo">
+            <img src="images/logo.webp" alt="logo" class="logo">
             <div>
                 <h1>The Ndola City Chamber of Commerce</h1>
                 <h2><em>Shedding more <span class="light-word">light</span> on your business!</em></h2>
@@ -65,6 +66,13 @@
     
 <!-- CONTENT HERE -->
     <main>
+        <picture class="photoA">
+            <source media="(max-width: 400px)" srcset="images/small.jpg">
+            <source media="(max-width: 650px)" srcset="images/medium.jpg">
+            <source media="(max-width: 900px)" srcset="images/large.jpg">
+            <img src="images/hero-default.jpg" alt="banner">
+        </picture>
+        
         <h1>Discover</h1>
 
         <div class="home-grid">
@@ -73,77 +81,86 @@
                 <figure>
                     <img src="images/ndola.jpg" alt="hero-banner-image" width="640" height="458">
                 </figure>
-                <h2 class="call-to-action">Hero with a Call to Action</h2>
+                <!-- <h2 class="call-to-action">Hero with a Call to Action</h2> -->
 
                 <section class="information">
                     <p>
-                        Quickly whiteboard cross-platform ROI<br>
-                        whereas enterprise-wide action items
+                        The Ndola Chamber would like <br>
+                        you to become its member!
                     </p>
-                    <button>Join Today</button>
+                    <button>Join us Today</button>
                 </section>  
             </div>
 
             <div class="event">
-                <h2>Event</h2>
+                <h2>Our Monthly Business Trainings</h2>
                 <p>
-                    Quickly whiteboard<br>
-                    cross-platform ROI<br>
-                    whereas enterprise
+                    Come join us every first week of the new month as we learn new business ideas,
+                    skills and techniques to run and maintain your business and even start 
+                    your own business.The trainings are open to members of the community and business even
+                    they are are not members of the Ndola Chamber of commerce.
                 </p>
             </div>
 
             <div class="current-weather">
                 <h2>Current Weather</h2>
-                <p>
-                    Temperature: xx°<br>
-                    Condition: Partly Cloudy<br>
-                    Wind Speed: Xmph<br>
-                    Wind Chill: X°<br>
-                </p>
+                <div class="weather-top-information">
+                    <span class="weather-icon"><i class="fa-solid fa-cloud-sun-rain"></i></span>
+                    <h3><span id="temperature">15</span>&deg;</h3>
+                </div>
+                
+                <div>
+                    <h3>Rainy Day</h3>
+                    <p>Condition:  <span>Rainy Day</span></p>
+                    <p>Wind Speed: <span id="wind-speed">4</span>km/h</p>
+                    <p>Wind Chill: <span id="wind-chill">NA</span></p>
+                </div>
             </div>
 
             <div class="news-release">
                 <h2>News Release</h2>
                 <p>
-                    Completely transition covalent functionalities before professional collaboration and
-                    idea-sharing. Holisticly re-engineer seamless convergence and best-of-breed
-                    methodologies. Dynamically mesh cutting-edge experiences through integrated webreadiness. Appropriately utilize.
+                Its with joy and delight that we are sharing this latest news that all the young entrepreneurs that have business in the
+                music,photography, adverting (All the media based businesses) met on the 18 May 2022 to discuss their way foward on
+                working together.The young business men and women discussed many important issues of coperation in the media sector and
+                formed up policies that will allow them to partner with each on favorable and profitable terms.The next meeting will be
+                on the 25th of June 2022,please don t miss you if you are in the media business
                 </p>
             </div>
 
             <div class="spotlight1">
-                <h2>Spotlight 1</h2>
+                <h2>NCC Reach Out Program</h2>
                 <figure>
-                    <img src="images/placeholder.png" alt="placeholder" width="200" height="100">
+                    <img src="images/reach-out.png" alt="placeholder" width="200" height="100">
                 </figure>
                 
                 <p>
-                    Quickly whiteboard<br>
-                    cross-platform ROI<br>
-                    whereas enterprise
+                   The Ndola Chamber of Commerce thanks all its members for their continuos
+                   out reach and support to the community!We invite all members to come through
+                   to these events that are held each quarter of the year.
                 </p>
             </div>
 
            
             <div class="spotlight2">
-                <h2>Spotlight 2</h2>
+                <h2>Music and Photography Business</h2>
                 <figure>
-                    <img src="images/placeholder.png" alt="placeholder" width="200" height="100">
+                    <img src="images/music.jpeg" alt="placeholder" width="200" height="100">
                 </figure>
                 <p>
-                    Quickly whiteboard<br>
-                    cross-platform ROI<br>
-                    whereas enterprise
+                    Are you an upcoming musician, artist, photographer or just started your new 
+                    musical studio? SM Media House and other media houses are there to support
+                    you.Use the following line to contact them on whatsApp Business.<br>
+                    +260974372761
                 </p>
             </div>
 
             <div class="join">
-                <h2>Join </h2>
+                <h2>Join US!</h2>
                 <p>
-                    Quickly whiteboard <br>
-                    cross-platform ROI<br>
-                    whereas enterprise.
+                  Join Us! By joining us you are making a decision to shed more light on 
+                  your business as your business will grow with another similar businesses
+                  in our chamber.
                 </p>
             </div>
 
@@ -155,7 +172,7 @@
 <!-- FOOTER HERE -->   
     <footer>
         <div class="footerGrid">
-            <img src="images/logo.png" alt="logo" class="footerLogo">
+            <img src="images/logo.webp" alt="logo" class="footerLogo">
 
             
             <div class="footerAddress">
@@ -179,6 +196,7 @@
 
     <script src="js/currentDate.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 
 </body>
 </html>

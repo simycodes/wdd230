@@ -28,37 +28,43 @@ header h2 {
 }
 /*----------- NAVIGATION --------------*/
 
-    /* nav ul {
-        display: flex;
-        margin-left: 2%;
-    }
+/* nav ul {
+    display: flex;
+    margin-left: 2%;
+}
 
-    nav ul li a{padding: .5rem 1rem;} */
+nav ul li a{padding: .5rem 1rem;} */
 
-    /*----------- code for the toggle menu functionality --------------*/
+/*----------- code for the toggle menu functionality --------------*/
     
-        nav button {
-            display: none;
-        }
-    
-        nav ul#primaryNav {
-            display: flex;
-            justify-content: flex-start;
-            margin-left: 2vw;
-        }
-    
-        nav ul li a {
-            padding: .5rem 1rem;
-        }
+nav button {
+    display: none;
+}
+
+nav ul#primaryNav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2vw;
+}
+
+nav ul li a {
+    padding: .5rem 1rem;
+}
+
+.active {
+    margin-left: 15px;
+}
 
 
 /*----------- MAIN --------------*/
-main h1 {
-    letter-spacing: 0.2rem;
-}
 
 main div {
     padding: 1rem;
+}
+
+main h1 {
+    letter-spacing: 0.2rem;
+    margin-left: 20px;
 }
 
 main h2 {

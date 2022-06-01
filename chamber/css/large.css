@@ -31,7 +31,9 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 
-
+.active {
+    margin-left: 20px;
+}
 
 /*----------- MAIN --------------*/
 main h2 {

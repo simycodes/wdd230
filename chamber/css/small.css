@@ -18,6 +18,7 @@ body {
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
     background-color:#FEFEFE;
+    line-height: 1.4;
 }
 
 
@@ -108,6 +109,7 @@ nav ul li a {
     text-decoration: none;
     text-align: center;
     letter-spacing: 1px;
+	cursor: pointer;
 }
 
 .light-word {
@@ -122,6 +124,7 @@ nav ul li a:hover {
 .active {
     color: #FEFEFE;
     background-color: #4F0540;
+    margin-left:20px;
 }
 
 /*----------- code for the toggle menu--------------*/
@@ -163,10 +166,18 @@ nav ul.open {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    
 }
 
 main h2 {
     font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color:#4F0540;
+    background-color: #4FD0E0;
+    padding:15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 main p {
@@ -175,7 +186,7 @@ main p {
 
 main div {
     margin-bottom: 1rem;
-    border:1px solid #0196ED;
+    /* border:1px solid #0196ED; */
     padding: 0.4rem;
     /* background-color: #E3E4E5; */
 }
@@ -204,10 +215,54 @@ main figure {
     display:none;
 }
 
+.home-grid div {
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.news-release {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.spotlight1 {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.spotlight1 img {
+    border-radius: 20px;
+}
+
+.spotlight2 {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.join {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.event {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
 /* css for the information inside the hero banner image */
-main h2,
-p,
-img {
+main h2, p, img {
     margin-left: 0.5rem;
 }
 
@@ -239,6 +294,45 @@ img {
     width: 100%;
     height: auto;
     margin-left: 0;
+}
+
+
+/* Responsive image design css styles */
+
+picture.photoA {
+    display: block;
+    width: 98%;
+    margin: 0 1%;
+}
+
+main picture.photoA img {
+    width: 100%;
+}
+
+/* weather content styles */
+.current-weather {
+    font-weight: bold;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.current-weather h3 {
+    font-size: 1.5rem;
+}
+
+.weather-top-information {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* font awesome styling */
+
+.weather-icon {
+    font-size: 5rem;
+    color:#4FD0E0;
 }
 
 /*----------- FOOTER --------------*/
@@ -281,7 +375,7 @@ footer p {
 
 footer div {
     margin-top: .6rem;
-    margin-left: 20px
+    margin-left: 2.2rem;
 }
 
 footer p {
@@ -290,8 +384,13 @@ footer p {
 
 .leftInformation a {
     text-decoration: none;
-    color:#333;;
+    color:#333;
     display: block;
+}
+
+.leftInformation a:hover {
+    text-decoration: underline;
+
 }
 
 .mapLink {

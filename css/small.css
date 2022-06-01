@@ -86,6 +86,7 @@ main section ul li {
 
 main section ul li a {
     margin-left: 5px;
+    cursor: pointer;
 }
 
 
