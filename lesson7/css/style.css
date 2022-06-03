@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+picture.lazy-image {
+    display: block;
+    margin: 0 1%;
+}
+
+main picture.lazy-image img {
+    width: 100%;
+}
+
+
+/* blur placeholder */
+img[data-src] {
+    filter: blur(.3rem);
+}
+
+img {
+    filter: blur(0rem);
+    transition: filter 0.5s
+}
