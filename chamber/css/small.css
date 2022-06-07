@@ -169,13 +169,19 @@ main {
     
 }
 
+main h1 {
+    margin-bottom: .1rem;
+    font-weight: bold;
+    color: #4F0540;
+}
+
 main h2 {
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
     color:#4F0540;
     background-color: #4FD0E0;
-    padding:15px;
+    padding:10px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
@@ -185,9 +191,9 @@ main p {
 } 
 
 main div {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     /* border:1px solid #0196ED; */
-    padding: 0.4rem;
+    padding: 0.2rem;
     /* background-color: #E3E4E5; */
 }
 
@@ -261,6 +267,11 @@ main figure {
 }
 
 
+.optional-image {
+    display:none;
+}
+
+
 /* css for the information inside the hero banner image */
 main h2, p, img {
     margin-left: 0.5rem;
@@ -280,7 +291,6 @@ main h2, p, img {
     margin-left: 85px;
     padding: 0.2rem;
     border-radius: 6px;
-    
 }
 
 .call-to-action {
@@ -334,6 +344,7 @@ main picture.photoA img {
     font-size: 5rem;
     color:#4FD0E0;
 }
+
 
 /*----------- FOOTER --------------*/
 
@@ -398,3 +409,83 @@ footer p {
     /* margin-left:18.5rem; */
 }
 
+
+
+/*----- DISCOVER PAGE SPECIFIC STYLES --------------*/
+
+.discover-heading {
+    margin-bottom: 1rem;
+}
+
+
+.top-information {
+    display: block;
+    width: 100%;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: -1rem;
+}
+
+.discover-grid {
+    display: block;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.discover-image img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.discover-image figcaption {
+    font-size: 1rem;
+    text-align: center;
+    color: #4F0540;
+    font-style: italic;
+}
+
+.top-left-side-information {
+    text-align: left;
+    padding: 0.2rem;
+    border-radius: 6px;
+}
+
+.middle-left-side-information {
+    text-align: left;
+    padding: 0.2rem;
+    border-radius: 6px;
+}
+
+
+.bottom-left-side-information {
+    text-align: left;
+    padding: 0.2rem;
+    border-radius: 6px;
+}
+
+/* blur placeholder */
+img[data-src] {
+    filter: blur(.3rem);
+}
+
+img {
+    filter: blur(0rem);
+    transition: filter 0.5s
+}
+
+
+.display-last-visit-message {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #4F0540;
+    font-weight: bold;
+    padding: 0.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*-----END OF DISCOVER PAGE SPECIFIC STYLES --------------*/
