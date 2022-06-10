@@ -1,0 +1,15 @@
+
+@media only screen and (min-width: 35em) {
+
+    table {
+        margin: 150px auto;
+        border: 1px solid #C5CAC8;
+        box-shadow: 8px 10px 18px #7495A9;
+        border-collapse: collapse;
+    }
+
+    .compilation-details {
+        font-size: 1rem;
+    }
+
+}
