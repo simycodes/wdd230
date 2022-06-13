@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 
-<title>Color-Scheme: Website Planning Document</title>
+<title>Join Us</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -61,12 +61,104 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    
-<!-- CONTENT HERE -->
+
+    <!-- CONTENT HERE -->
     <main>
-        <h1>Join</h1>
-    
+        <h1>Join Us! Become a member of the Ndola Chamber of Commerce.</h1>
         
+        <div class="join-grid">
+
+            <div class="form-information">
+                <h2 class="join-invite-title">Joining Ndola Chamber of Commerce Application</h2>
+                <form method="get" action="thankyou.html">
+            
+                    <fieldset>
+                        <legend>Application Information</legend>
+            
+                        <!-- putting the input element makes the input field to be actived if input name is clicked or touched -->
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Job Position Title <input type="text" name="lname"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="simycodes@gmail.com"
+                                required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="12345551234" required></label>
+                        <label class="top">Business Name* <input type="text" name="business-name" required></label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Membership Level</legend>
+            
+                        <div>Membership</div> <!-- sbs  means side by side -->
+                        <label class="sbs"><input type="radio" name="membership" value="beginner"> NP Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="intermediate"> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="Advanced"> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="Advanced"> Gold Membership</label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Briefly describe your Business or Company</legend>
+                        <div>Tell us about your business or company*</div>
+                        <label>
+                            <textarea rows="7" cols="34" name="business" maxlength="500" required></textarea>
+                        </label>
+                    </fieldset>
+            
+                    <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
+                    <label id="date-time-loaded"><input type="hidden" name="date-time-loaded" value=""></label>
+            
+            
+                    <input type="submit" value="Join Ndola Chamber of Commerce" class="submitBtn">
+                </form>
+            </div>
+
+             <div class="join-news">
+                <h2 class="benefits">Benefits of Becoming a Member</h2>
+                <p>
+                   Come and be part of the Largest Community of People who are making a change
+                   in the city of Ndola!<br>
+                   <br><b>Each membership level has its own benefits as explained below!</b>  
+                </p>
+            </div>
+
+            <div class="NP-membership membership-card">
+                <h2 class="benefits">Benefits of an a NP Member</h2>
+                <p>
+                By becoming a member,you also get <b>free access to executive trainings</b> where you will
+                learn more about good business techniques and ideas on how to improve your business efficiency.
+                <br><b>Fill in the form below to become to Join!</b>
+                </p>
+            </div>
+
+            <div class="bronze-membership membership-card">
+                <h2 class="benefits">Benefits of an a Bronze Member</h2>
+                <p>
+                    In addition to the NP Membership,When you join the Ndola Chamber of Commerce as a Bronze member,<b>you become part of the
+                    largest community of local business of ndola</b> who are always working work to improve
+                    their business through improved revenues and good business relationships.
+                </p>
+            </div>
+
+            <div class="silver-membership membership-card">
+                <h2 class="benefits">Benefits of an a Silver Member</h2>
+                <p>
+                    In addition to the Bronze Membership,When you join the Ndola Chamber of Commerce as
+                     a Silver member,you will have access to executive training and monthly business meetings
+                     for the chamber.
+                </p>
+            </div>
+
+            <div class="gold-membership membership-card">
+                <h2 class="benefits">Benefits of an a Gold Member</h2>
+                <p>
+                    In addition to the Silver Membership,When you join the Ndola Chamber of Commerce as
+                     a Gold member,you become legible to advertising (on our home page spotlights),
+                    and event discounts
+                </p>
+            </div>
+
+
+
+        </div>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -97,6 +189,7 @@
     </footer>
     <script src="js/currentDate.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/form-date-time.js"></script>
 
 </body>
 </html>

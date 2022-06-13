@@ -231,7 +231,12 @@ main figure {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 15px;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 10px;
+}
+
+.max-width-design {
+    max-width: 400px;
 }
 
 .spotlight1 {
@@ -489,3 +494,139 @@ img {
 
 
 /*-----END OF DISCOVER PAGE SPECIFIC STYLES --------------*/
+
+
+
+
+
+
+/*----- JOIN PAGE SPECIFIC STYLES --------------*/
+.join-grid {
+    display: block;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.join-news {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.membership-card {
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
+
+/*----------- FORM --------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #4F0540;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #0286B4;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    /*this makes chrome and safeli to apply the set css for the select element,and not use its browser default-the drop down arrow on select element goes and must be manualy be put there*/
+    display: block;
+    /*this makes the input fields to go down the input labels */
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    /*this makes the radio buttons and check boxes to go down the input labels */
+    padding: 0.75rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #4FD0E0;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    /* This matches the width size on smaller screens  */
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+/* creating the red border like inside the input fields of the the required inputs */
+form label.top input:required {
+    border-left: 6px solid red;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+/* Other */
+
+textarea {
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea:invalid {
+    border: 1px solid red;
+}
+
+textarea:valid {
+    border: 1px solid green;
+}
+
+/*-----------END OF FORM --------------*/
+
+.benefits {
+    margin: 0.7rem auto;
+    max-width: 25rem;
+}
+
+.join-invite-title {
+    font-size: 1.7rem;
+    text-align: left;
+    max-width:50rem;
+}
+
+
+/*----- END OF JOIN PAGE SPECIFIC STYLES -------*/

@@ -200,6 +200,58 @@ main div {
 /*-----END OF DISCOVER PAGE SPECIFIC STYLES --------------*/
 
 
+/*-----JOIN PAGE SPECIFIC STYLES --------------*/
+.join-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    justify-content: center;
+    border: none;
+}
+
+.form-information {
+    grid-column: 1/4;
+    grid-row: 1/6;
+}
+
+.join-news {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.NP-Membership {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.bronze-membership {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.silver-membership {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.gold-membership{
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+.membership-card {
+    display: block;
+}
+
+/* form styles */
+
+form label.sbs {
+	padding:.4rem 0;
+}
+
+/*-----END OF JOIN PAGE SPECIFIC STYLES --------------*/
+
+
 
 /*----------- FOOTER --------------*/
 
