@@ -16,7 +16,6 @@ if (numVisits !== 0) {
 // increment the number of visits.
 numVisits++;
 
-
 // store the new number of visits value
 //the setItem function can also update this clients number of clients as shown below
 localStorage.setItem("visits-ls", numVisits);
