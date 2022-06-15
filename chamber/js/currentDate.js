@@ -39,3 +39,6 @@ document.querySelector("#lastUpdate").textContent = document.lastModified;
 //Year only
 const currentYear = `${year}`;
 document.querySelector("#yearOnly").textContent = currentYear;
+
+
+

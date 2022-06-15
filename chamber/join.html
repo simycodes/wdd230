@@ -70,7 +70,7 @@
 
             <div class="form-information">
                 <h2 class="join-invite-title">Joining Ndola Chamber of Commerce Application</h2>
-                <form method="get" action="thankyou.html">
+                <form method="get" action="thankyou.html" id="form">
             
                     <fieldset>
                         <legend>Application Information</legend>
@@ -88,10 +88,10 @@
                         <legend>Membership Level</legend>
             
                         <div>Membership</div> <!-- sbs  means side by side -->
-                        <label class="sbs"><input type="radio" name="membership" value="beginner"> NP Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="intermediate"> Bronze Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="Advanced"> Silver Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="Advanced"> Gold Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="NP"> NP Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
                     </fieldset>
             
                     <fieldset>
@@ -100,12 +100,13 @@
                         <label>
                             <textarea rows="7" cols="34" name="business" maxlength="500" required></textarea>
                         </label>
+
+                        <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
+                        <label class="top"><input type="hidden" name="date-time" id="date-time-loaded"></label>
+
                     </fieldset>
             
-                    <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
-                    <label id="date-time-loaded"><input type="hidden" name="date-time-loaded" value=""></label>
-            
-            
+                    
                     <input type="submit" value="Join Ndola Chamber of Commerce" class="submitBtn">
                 </form>
             </div>

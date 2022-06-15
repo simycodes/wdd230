@@ -1,0 +1,53 @@
+body {
+    font-family:'Lucida Sans Regular', 'Ubuntu', sans-serif;
+    background-color:bisque;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h1, h2, p, footer{
+    text-align: center;
+}
+
+h1, h2{
+    color:#bc6c25;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+
+img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    display: block;
+    margin: 8px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.39), 0 6px 6px rgba(0, 0, 0, 0.33);
+    
+
+    /* width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333; */
+}
+
+img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: 0.3rem;
+    padding: 0.2rem;
+    background-color: #f5ebe0;
+    border: 1px solid #bbb;
+}
+
