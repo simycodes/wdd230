@@ -9,28 +9,12 @@
       "websiteurl":"https://personal-site-for-wdd-130.glitch.me/"
     },
     {
-      "name": "Ndola Chamber of Commerce",
-      "address": "42 Tusha Road,Ndola.Zambia",
-      "number": "(+260) 956 836368",
-      "image": "json/images/ncc.png",
-      "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
-    },
-    {
       "name": "Mwaiseni Maisonettes",
       "address": "Itawa Extension,Ndola.Zambia",
       "number": "(+260)97 4372761",
       "image": "json/images/mwaiseni.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://www.booking.com/searchresults.en-gb.html?aid=311984&label=mwaiseni-maisonettes-umxSMQ_g6%2AF_XJKO25IaXQS442476223356%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666475%3Akwd-282504156161%3Alp1028770%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXwxhKG0pUU-mcMVT-JwQpc&sid=5371efc6333dc84e4dc240ee36df13ab&dest_id=-2300519&dest_type=city&srpvid=10c63d54d5c9067f&track_hp_back_button=1#hotel_2166545-back"
-    },
-     {
-      "name": "Dry Oak Zambia",
-      "address": "12 Presedent Avenue Road,Ndola.Zambia",
-      "number": "(+260) 969 180097",
-      "image": "json/images/dryoak.png",
-      "membershiplevel": "Bronze",
-      "websiteurl":"https://class-work-web.glitch.me/rivers.html"
+      "websiteurl":"https://www.booking.com"
     },
      {
       "name": "Zamtel",
@@ -38,7 +22,7 @@
       "number": "+260974372761",
       "image": "json/images/zamtel.jpg",
       "membershiplevel": "Silver",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.zamtel.zm/"
     },
      {
       "name": "MTN",
@@ -46,7 +30,7 @@
       "number": "(+260) 956 836368",
       "image": "json/images/mtn.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.mtn.zm/"
     },
      {
       "name": "Pick and Pay",
@@ -54,7 +38,7 @@
       "number": "(+260) 969 180097",
       "image": "json/images/pnp.jpg",
       "membershiplevel": "Silver",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.picknpayzambia.com/"
     },
      {
       "name": "Handymans Paradise",
@@ -62,7 +46,7 @@
       "number": "(+260) 956 836368",
       "image": "json/images/handymans.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.handymans.info/"
     },
      {
       "name": "Music Vibes",
@@ -70,7 +54,7 @@
       "number": "(+260) 974 372761",
       "image": "json/images/musicvibes.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://zedmusicvibes.com/"
     },
      {
       "name": "Shop Rite",
@@ -78,7 +62,7 @@
       "number": "(+260) 969 180097",
       "image": "json/images/shoprite.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.shoprite.co.zm/"
     },
     {
       "name": "Airtel",
@@ -86,7 +70,7 @@
       "number": "(+260) 974 372761",
       "image": "json/images/airtel.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.airtel.co.zm/"
     },
     {
       "name": "Nandos",
@@ -94,7 +78,7 @@
       "number": "(+260) 956 836368",
       "image": "json/images/nandos.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://www.nandos.co.zm/"
     },
      {
       "name": "Nsobe Game Park",
@@ -102,7 +86,15 @@
       "number": "(+260) 969 180097",
       "image": "json/images/nsobe.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
+      "websiteurl":"https://nsobegamecamp.com/"
+    },
+     {
+      "name": "Ndola Chamber of Commerce",
+      "address": "42 Tusha Road,Ndola.Zambia",
+      "number": "(+260) 956 836368",
+      "image": "json/images/ncc.png",
+      "membershiplevel": "Gold",
+      "websiteurl":"index.html"
     }
   ]
 }
