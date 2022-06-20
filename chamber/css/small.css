@@ -756,12 +756,18 @@ textarea:valid {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     
     padding: 0.2rem;
     text-align: center;
     max-width: 1000px;
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+
+.list section h4, p, img {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 /* .list section p {

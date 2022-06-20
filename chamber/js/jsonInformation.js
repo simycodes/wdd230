@@ -28,9 +28,8 @@ function displayCompanies(company) {
   let url = document.createElement('a');
   let companyUrl = document.createElement('p');
 
-  
   companyLogo.setAttribute('src', company.image);
-  companyLogo.setAttribute("alt",`Company logo image of ${company.image}`);
+  companyLogo.setAttribute("alt",`Company logo image of ${company.name}`);
   companyLogo.setAttribute('loading', 'lazy');
 
   url.textContent = `${company.websiteurl}`;
@@ -38,7 +37,7 @@ function displayCompanies(company) {
   url.setAttribute('target', '_blank');
   companyUrl.appendChild(url);
 
-  companyName.textContent = `${company.name}`
+  companyName.textContent = `${company.name}`;
   address.textContent = `${company.address}`;
   phoneNumber.textContent = `${company.number}`;
   //companyUrl.textContent = `${company.websiteurl}`;
