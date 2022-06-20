@@ -5,11 +5,13 @@ const visitsDisplay = document.querySelector(".number-of-visits");
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 console.log(numVisits)
 
+
 // determine if this is the first visit or display the number of visits.
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
 	document.querySelector(".how-many-days-ago").textContent = 0;
+	localStorage.setItem("last-date-visit", Date.now());
 	visitsDisplay.textContent = `This is your first visit!`;
 }
 
@@ -44,9 +46,9 @@ console.log("Last visit difference in days is:" + parseInt(difference));
 //Displaying a message about how many days it's been or if this is the first visit.
 if (numVisits !== 0) {
 	//Displaying a message about how many days it's been
-	document.querySelector(".how-many-days-ago").textContent = difference;
-} else {
 	document.querySelector(".how-many-days-ago").textContent = 0;
+} else {
+	document.querySelector(".how-many-days-ago").textContent = difference;
 }
 
 // update the lastVisitDate

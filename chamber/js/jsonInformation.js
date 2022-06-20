@@ -31,7 +31,7 @@ function displayCompanies(company) {
 
   address.textContent = `${company.address}`
   phoneNumber.textContent = `${company.number}`;
-  companyUrl.textContent = `${company.websiteUrl}`;
+  companyUrl.textContent = `${company.websiteurl}`;
 
    // Add/append the section(card) with all company elements
   card.appendChild(companyLogo);

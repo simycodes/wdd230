@@ -4,7 +4,7 @@
       "name": "Smart Gents and Queens Salon",
       "address": "5 Buteko Road,Ndola.Zambia",
       "number": "(+260) 969 180097",
-      "image": "images/smartgents.png",
+      "image": "json/images/smartgents.png",
       "membershiplevel": "Gold",
       "websiteurl":"https://personal-site-for-wdd-130.glitch.me/"
     },
@@ -12,7 +12,7 @@
       "name": "Ndola Chamber of Commerce",
       "address": "42 Tusha Road,Ndola.Zambia",
       "number": "(+260) 956 836368",
-      "image": "images/ncc.png",
+      "image": "json/images/ncc.png",
       "membershiplevel": "Gold",
       "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
     },
@@ -20,7 +20,7 @@
       "name": "Mwaiseni Maisonettes",
       "address": "Itawa Extension,Ndola.Zambia",
       "number": "(+260)97 4372761",
-      "image": "images/mwaiseni.jpg",
+      "image": "json/images/mwaiseni.jpg",
       "membershiplevel": "Gold",
       "websiteurl":"https://www.booking.com/searchresults.en-gb.html?aid=311984&label=mwaiseni-maisonettes-umxSMQ_g6%2AF_XJKO25IaXQS442476223356%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666475%3Akwd-282504156161%3Alp1028770%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXwxhKG0pUU-mcMVT-JwQpc&sid=5371efc6333dc84e4dc240ee36df13ab&dest_id=-2300519&dest_type=city&srpvid=10c63d54d5c9067f&track_hp_back_button=1#hotel_2166545-back"
     },
@@ -52,7 +52,7 @@
       "name": "Pick and Pay",
       "address": "1021 Commando Road,Ndola.Zambia",
       "number": "(+260) 969 180097",
-      "image": "images/pnp.jpg",
+      "image": "json/images/pnp.jpg",
       "membershiplevel": "Silver",
       "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
     },
@@ -60,7 +60,7 @@
       "name": "Handymans Paradise",
       "address": "18 Buteko,Ndola.Zambia",
       "number": "(+260) 956 836368",
-      "image": "images/handymans.jpg",
+      "image": "json/images/handymans.jpg",
       "membershiplevel": "Gold",
       "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
     },
@@ -68,7 +68,7 @@
       "name": "Music Vibes",
       "address": "1701 Kalewa Rd Northrise,Ndola.Zambia",
       "number": "(+260) 974 372761",
-      "image": "images/musicvibes.jpg",
+      "image": "json/images/musicvibes.jpg",
       "membershiplevel": "Gold",
       "websiteurl":"https://simycodes.github.io/wdd230/chamber/index.html"
     },
