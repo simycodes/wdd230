@@ -1,6 +1,6 @@
 //const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 //const requestURL = '../json/companies.json';
-const requestURL = '';
+const requestURL = 'https://simycodes.github.io/wdd230/chamber/json/companies.json';
 const cards = document.querySelector('.cards');
 
 
