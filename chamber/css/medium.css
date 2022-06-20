@@ -263,11 +263,31 @@ img {
     display: block;
 }
 
-
-
-
-
 /*-----END OF JOIN PAGE SPECIFIC STYLES --------------*/
+
+
+/*-----DIRECTORY PAGE SPECIFIC STYLES --------------*/
+
+.list section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 0.2rem;
+    text-align: center;
+    max-width: 1000px;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+
+/* .list section p {
+    margin-bottom: -5px;
+} */
+
+
+/*-----END OF DIRECTORY PAGE SPECIFIC STYLES --------------*/
+
+
 
 /*----------- FOOTER --------------*/
 footer p {

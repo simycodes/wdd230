@@ -15,15 +15,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/938ad39e22.js" crossorigin="anonymous"></script>
 
-
-    <title>Thank You for Joining The Ndola Chamber of Commerce</title>
+    <!-- Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Directory: Ndola Chamber of Commerce</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
 
 
     <!-- STYLE SHEETS -->
@@ -44,7 +43,7 @@
     <header>
         <p id="display-message">🤝🏼 Come join us for the chamber meet and greet on Wednesday at 7:00 p.m</p>
         <div class="header-grid">
-            <img src="images/logo.webp" alt="logo" class="logo">
+            <img src="images/logo.png" alt="logo" class="logo">
             <div>
                 <h1>The Ndola City Chamber of Commerce</h1>
                 <h2><em>Shedding more <span class="light-word">light</span> on your business!</em></h2>
@@ -71,16 +70,23 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h1 class="discover-heading">Thank you for Joining The Ndola Chamber of Commerce!</h1>
-        <main>
-            <div class="top-information">
-                <p>
-                    Will send you an email with more information about the The Ndola Chamber of Commerce,
-                    Chamber lined up activities and calender,and how we will forever stay in contact!
-                </p>
-            </div>
-        </main>
+        <h1>Business Directory</h1>
+        <div class="grid-list-buttons">
+            <button id="gridBtn"><span class="material-symbols-outlined">grid_view</span></button>
+            <button id="listBtn"><span class="material-symbols-outlined">list</span></button>
+        </div>
+        <hr>
         
+        <div id="cards-grid" class="cards"></div>
+
+
+
+
+
+
+
+
+
 
     </main>
 
@@ -115,8 +121,8 @@
 
     <script src="js/currentDate.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/lazy-loading.js"></script>
-    <script src="js/last-visit-local-storage.js"></script>
+    <script src="js/jsonInformation.js"></script>
+    <script src="js/grid-list-display.js"></script>
 
 </body>
 

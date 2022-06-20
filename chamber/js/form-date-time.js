@@ -1,6 +1,6 @@
 window.onload = (event) => {
    //console.log('page is fully loaded');
-   document.querySelector("#date-time-loaded").value = new Date();
+   document.querySelector("#date-time-loaded").value = new Date().toLocaleString();
 };
 
 

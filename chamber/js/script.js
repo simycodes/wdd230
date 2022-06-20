@@ -10,7 +10,6 @@ const navLinks = document.querySelectorAll("nav a").forEach(link =>{
     }
 })
 
-
 //code to for the toggle menu
 function toggleMenu(){
 	console.log("It worked!");
