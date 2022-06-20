@@ -706,8 +706,8 @@ textarea:valid {
     margin-bottom: 20px;
 }
 
-.cards, .list h4 {
-    text-align: center;
+.card section h4 {
+    display: none;
 }
 
 .cards img {
@@ -737,9 +737,6 @@ textarea:valid {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.cards section a {
-    margin-bottom: 15px;
-}
 
 .list {
     display: flex;
@@ -768,10 +765,10 @@ textarea:valid {
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
-.list section h4, p, img {
-    flex-basis: auto;
+.list section h4 {
+    flex-basis: 240px;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 
 /* .list section p {
