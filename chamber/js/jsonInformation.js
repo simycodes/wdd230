@@ -20,6 +20,7 @@ function displayCompanies(company) {
   let card = document.createElement('section');
 
   //creation of companyLogo, address ,phone number and companyurl elements
+  let companyName = document.createElement('h4')
   let companyLogo = document.createElement('img');
   let address = document.createElement('p');
   let phoneNumber = document.createElement('p');
@@ -37,12 +38,14 @@ function displayCompanies(company) {
   url.setAttribute('target', '_blank');
   companyUrl.appendChild(url);
 
-  address.textContent = `${company.address}`
+  companyName.textContent = `${company.name}`
+  address.textContent = `${company.address}`;
   phoneNumber.textContent = `${company.number}`;
   //companyUrl.textContent = `${company.websiteurl}`;
 
    // Add/append the section(card) with all company elements
   card.appendChild(companyLogo);
+  card.appendChild(companyName);
   card.appendChild(address)
   card.appendChild(phoneNumber);
   card.appendChild(companyUrl);

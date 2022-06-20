@@ -706,6 +706,9 @@ textarea:valid {
     margin-bottom: 20px;
 }
 
+.cards, .list h4 {
+    text-align: center;
+}
 
 .cards img {
     width: 100%;
@@ -741,6 +744,7 @@ textarea:valid {
     padding: 0.5rem;
     text-align: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
 }
 
 .list section:nth-child(even){
