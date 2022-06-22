@@ -19,6 +19,7 @@ fetch(apiURL)
     currentTemp.innerHTML = `<strong>${weatherInfo.main.temp.toFixed(0)}</strong>`;
     
     const iconsrc = `https://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`;
+    console.log(iconsrc);
     const desc = weatherInfo.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);weatherIcon.setAttribute('alt', desc);
