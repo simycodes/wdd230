@@ -15,10 +15,10 @@ fetch(apiURL)
 	document.getElementById("currentTemp").innerHTML = weatherInfo.main.temp;
 	document.getElementById("windSpeed").innerHTML = weatherInfo.wind.speed;
 	
-	//geting and displaying the image
+	//getting and displaying the image
 	const iconcode = weatherInfo.weather[0].icon;
 	console.log(iconcode);
-	const icon_path = "api.openweathermap.org/img/w/"+ iconcode +"png";
+	const icon_path = "//api.openweathermap.org/img/w/"+ iconcode +"png";
 	console(icon_path);
 	
 	document.getElementById("weather_icon").src = icon_path;
