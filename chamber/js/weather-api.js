@@ -14,14 +14,17 @@ fetch(apiURL)
     document.getElementById("condition").innerHTML = weatherInfo.weather[0].description;
 	document.getElementById("temperature").innerHTML = weatherInfo.main.temp;
 	document.getElementById("wind-speed").innerHTML = weatherInfo.wind.speed;
+
+    const weatherImage = document.getElementById("weather-icon");
 	
 	//getting and displaying the image
 	const iconcode = weatherInfo.weather[0].icon;
 	console.log(iconcode);
 	const icon_path = "//api.openweathermap.org/img/w/"+ iconcode +".png";
 	console.log(icon_path);
-    
-	document.getElementById("weather-icon").src = icon_path;
+
+    weatherImage.src = icon_path;
+	// document.getElementById("weather-icon").src = icon_path;
 	
  }); //end of "then" fat arrow function
 
