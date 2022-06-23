@@ -20,10 +20,9 @@ fetch(apiURL)
 	console.log(iconcode);
 	const icon_path = "//api.openweathermap.org/img/w/"+ iconcode +".png";
 	console.log(icon_path);
-	
+    
 	document.getElementById("weather-icon").src = icon_path;
 	
-
  }); //end of "then" fat arrow function
 
 
