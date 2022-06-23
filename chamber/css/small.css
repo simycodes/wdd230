@@ -358,6 +358,10 @@ main picture.photoA img {
     font-size: 1.5rem;
 }
 
+.weather-border {
+    border-bottom: 5px solid #4FD0E0;
+}
+
 .weather-top-information {
     display: flex;
     justify-content: space-evenly;
