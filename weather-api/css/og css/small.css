@@ -9,52 +9,47 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    background-color:#FEFEFE;
+    background-color: #FEFEFE;
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #0196ED;
-    display: grid;
-    grid-template-columns: auto;
+    background-color: #ddd;
 }
-
-header div {margin-left: 10px}
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #768F9C;
-    box-shadow: 0 0 20px #777;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    background-color: #666;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
+nav ul li {
+    float: left;
+    width: 25%;
+}
 nav ul li a {
     display: block;
-    color: #FEFEFE;
+    background-color: #444;
+    color: #eee;
+    border-left: 1px solid #777;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
-    font-weight: bold;
     text-align: center;
 }
-
+nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #aaa;
+    background-color: #eee;
     color: #333;
 }
-
 nav ul li.active a {
     background-color: #000;
     color: #fff;
@@ -62,25 +57,22 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
-    min-height: 10rem;
+    min-height: 20rem;
 }
 
-main p {line-height: 1.3rem;}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #0196ED;
-    color:#FEFEFE;
+    background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
-    border-top-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
-    border-radius: 0.5rem;
-    font-weight: bold;
 }
 
-.active {
-    color: #aaa;
-    background-color: #0196ED;
-    color:black;
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
