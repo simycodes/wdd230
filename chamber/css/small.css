@@ -363,15 +363,31 @@ main picture.photoA img {
     border-radius: 4px;
 }
 
-/* .weather-icon {
-
-} */
 
 .weather-top-information {
     display: flex;
     justify-content: space-evenly;
-    
+    background-color: #FEFEFE;
+    border: 1px solid #0196ED;
+    border-radius: 6px;
 }
+
+
+.weather-top-information img {
+    width: 100%;
+    height: 60px;
+}
+
+.weather-top-information h3 {
+    margin-right: 20px;
+}
+
+/* #weather_icon {
+    width: 100%;
+    height: 50px;
+} */
+
+
 
 /* font awesome styling */
 

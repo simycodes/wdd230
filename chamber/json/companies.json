@@ -49,14 +49,6 @@
       "websiteurl":"https://www.handymans.info/"
     },
      {
-      "name": "Music Vibes",
-      "address": "1701 Kalewa Rd Northrise,Ndola.Zambia",
-      "number": "(+260) 974 372761",
-      "image": "json/images/musicvibes.jpg",
-      "membershiplevel": "Gold",
-      "websiteurl":"https://zedmusicvibes.com/"
-    },
-     {
       "name": "Shop Rite",
       "address": "1002 President Avenue,Ndola.Zambia",
       "number": "(+260) 969 180097",
@@ -71,22 +63,6 @@
       "image": "json/images/airtel.jpg",
       "membershiplevel": "Gold",
       "websiteurl":"https://www.airtel.co.zm/"
-    },
-    {
-      "name": "Nandos",
-      "address": "Shop 3 - Jaranda Mall,Ndola.Zambia",
-      "number": "(+260) 956 836368",
-      "image": "json/images/nandos.jpg",
-      "membershiplevel": "Gold",
-      "websiteurl":"https://www.nandos.co.zm/"
-    },
-     {
-      "name": "Nsobe Game Park",
-      "address": " Pristine Miombo farm,Ndola.Zambia",
-      "number": "(+260) 969 180097",
-      "image": "json/images/nsobe.jpg",
-      "membershiplevel": "Gold",
-      "websiteurl":"https://nsobegamecamp.com/"
     },
      {
       "name": "Ndola Chamber of Commerce",
