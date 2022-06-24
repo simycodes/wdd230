@@ -42,6 +42,12 @@ function displayCompanies(company) {
   phoneNumber.textContent = `${company.number}`;
   //companyUrl.textContent = `${company.websiteurl}`;
 
+ 
+// const a = document.querySelector(cards);
+//   if(a.classList == "cards"){
+//        address.classList.add("bottom-margin");
+//   }
+
    // Add/append the section(card) with all company elements
   card.appendChild(companyLogo);
   card.appendChild(companyName);
@@ -51,6 +57,6 @@ function displayCompanies(company) {
 
   // Add/append the the card element(section) to the div element having the class named cards
   document.querySelector('div.cards').appendChild(card);
-  
+
 }
 

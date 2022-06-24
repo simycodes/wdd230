@@ -723,9 +723,13 @@ textarea:valid {
     background-color: #4F0540;
 }
 
-.cards p {
+.bottom-margin {
     margin-bottom: -10px;
 }
+
+/* .cards p {
+    margin-bottom: 10px;
+} */
 
 .cards p:nth-child(4) {
     margin-bottom: 20px;
