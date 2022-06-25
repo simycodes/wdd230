@@ -26,6 +26,7 @@ function displayCompanies(company) {
   let phoneNumber = document.createElement('p');
 
   let url = document.createElement('a');
+  let imageUrl = document.createElement('a');
   let companyUrl = document.createElement('p');
 
   companyLogo.setAttribute('src', company.image);
@@ -36,6 +37,10 @@ function displayCompanies(company) {
   url.setAttribute('href', company.websiteurl);
   url.setAttribute('target', '_blank');
   companyUrl.appendChild(url);
+
+  imageUrl.setAttribute('href', company.websiteurl);
+  imageUrl.setAttribute('target', '_blank');
+  imageUrl.appendChild(companyLogo);
 
   companyName.textContent = `${company.name}`;
   address.textContent = `${company.address}`;
@@ -49,11 +54,17 @@ function displayCompanies(company) {
 //   }
 
    // Add/append the section(card) with all company elements
-  card.appendChild(companyLogo);
+  card.appendChild(imageUrl); //imageURL contains an image inside it,that is displayed
   card.appendChild(companyName);
   card.appendChild(address)
   card.appendChild(phoneNumber);
   card.appendChild(companyUrl);
+
+  // card.appendChild(companyLogo);
+  // card.appendChild(companyName);
+  // card.appendChild(address)
+  // card.appendChild(phoneNumber);
+  // card.appendChild(companyUrl);
 
   // Add/append the the card element(section) to the div element having the class named cards
   document.querySelector('div.cards').appendChild(card);
