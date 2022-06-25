@@ -219,10 +219,6 @@ main figure {
     position: relative;
 }
 
-.join {
-    display:none;
-}
-
 .home-grid div {
     margin: 0.2rem;
     padding: 0.2rem;
@@ -230,7 +226,7 @@ main figure {
 
 .news-release {
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
     border-radius: 15px;
     text-align: center;
     margin: 0 auto;
@@ -243,7 +239,7 @@ main figure {
 
 .spotlight1 {
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
     border-radius: 15px;
     text-align: center;
 }
@@ -254,21 +250,22 @@ main figure {
 
 .spotlight2 {
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
     border-radius: 15px;
     text-align: center;
 }
 
 .join {
+    display: none;
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 15px;
     text-align: center;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
 }
 
 .event {
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
     border-radius: 15px;
     text-align: center;
 }
@@ -348,10 +345,10 @@ main picture.photoA img {
 /* weather content styles */
 .current-weather {
     font-weight: bold;
-    background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 15px;
     text-align: center;
+    background-color: #E3E4E5;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
 }
 
 .current-weather h3 {
