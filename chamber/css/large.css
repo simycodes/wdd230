@@ -151,6 +151,14 @@ main div {
 
 
 /*----- DISCOVER PAGE SPECIFIC STYLES --------------*/
+/* .discover-heading {
+    margin-left:100px;
+}
+ */
+.top-information {
+   display:flex;
+}
+
 
 .discover-grid {
     display: grid;
@@ -215,7 +223,7 @@ main div {
     border: none;
 }
 
-.form-information {
+.form-information{
     grid-column: 1/4;
     grid-row: 1/6;
 }
@@ -257,6 +265,72 @@ form label.sbs {
 
 /*-----END OF JOIN PAGE SPECIFIC STYLES --------------*/
 
+
+/*----- START OF CONTACT US SPECIFIC STYLES -------*/
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 0.5em;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #FEFEFE;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.contact-form-information {
+    grid-column: 1 / 4;
+    background-color: #FEFEFE;
+    width: 750px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.contact-form-information h2.first-heading{
+    font-size: 1.6rem;
+    width:400px;
+    text-align: center;
+}
+.contact-form-information h2.second-heading {
+    width: 430px;
+}
+
+.invite-questions {
+    padding: 1.4rem;
+    background-color: #E3E4E5;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+    
+}
+
+.contact-us-section {
+    grid-column: 4 / 5;
+    grid-row: 1 / 1;
+    width: 400px;
+    height: 300px;
+    padding:1.4rem;
+    margin-top: 2.2rem;
+    margin-left: 3rem;
+    
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.contact-us-section h2 {
+    font-size: 2.2rem;
+    border-radius: 7px;
+}
+
+
+
+
+
+/*----- END OF CONTACT US SPECIFIC STYLES -------*/
 
 
 /*----------- FOOTER --------------*/

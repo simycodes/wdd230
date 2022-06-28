@@ -183,8 +183,9 @@ main h2 {
     font-weight: bold;
     color:#4F0540;
     background-color: #4FD0E0;
-    padding:10px;
-    border-radius: 15px;
+    padding:8px;
+    border-radius: 6px;
+    margin-left: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -467,12 +468,18 @@ footer p {
 
 
 .top-information {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     background-color: #E3E4E5;
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
     margin-top: -1rem;
-    border-radius: 15px;
+    border-radius: 6px;
+}
+
+.top-information p {
+    margin: 0.5rem;
+    margin-left: 1rem;
 }
 
 .discover-grid {
@@ -814,8 +821,15 @@ textarea:valid {
     /* smaller viewports only */
 }
 
-
-
-
-
 /*----- END OF DIRECTORY SPECIFIC STYLES -------*/
+
+
+/*----- START OF CONTACT US SPECIFIC STYLES -------*/
+.contact-grid {
+    font-size: 1rem;
+    background-color: #FEFEFE;
+}
+
+
+
+/*----- END OF CONTACT US SPECIFIC STYLES -------*/

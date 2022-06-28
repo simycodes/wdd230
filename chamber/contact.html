@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-<title>Contact: Website Planning Document</title>
+<title>Contact Us: The Ndola City Chamber of Commerce</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -66,7 +66,69 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Contact</h1>
+        <h1><i>Contact The Ndola Chamber of Commerce!</i></h1>
+        <div class="contact-grid">
+
+                <div class="contact-form-information">
+
+                    <div class="invite-questions">
+                        <h2 class="first-heading"><em>We can't wait to hear from you!</em></h2>
+                        <p>
+                            Send us your questions(queries) about the Ndola Chamber of Commerce
+                            using the form below.
+                        </p>
+                    </div>
+                    
+
+                    <h2 class="join-invite-title second-heading">Question for the Chamber Form</h2>
+                    <form method="get" action="#" id="form">
+                
+                        <fieldset>
+                            <legend>Inquiry Information</legend>
+                
+                            <!-- putting the input element makes the input field to be actived if input name is clicked or touched -->
+                            <label class="top">First Name* <input type="text" name="fname" required></label>
+                            <label class="top">Last Name* <input type="text" name="lname" required></label>
+                            <label class="top">Email* <input type="email" name="email" placeholder="simycodes@gmail.com" required></label>
+                            <label class="top">Business Name (if available) <input type="text" name="business-name"></label>
+
+                            <br>
+                            <div>Where are you contacting us from?</div> <!-- sbs  means side by side -->
+                            <label class="sbs"><input type="radio" name="place" value="NP">Ndola</label>
+                            <label class="sbs"><input type="radio" name="place" value="Bronze">Within the Copperbelt Province</label>
+                            <label class="sbs"><input type="radio" name="place" value="Silver">Within Zambia</label>
+                            <label class="sbs"><input type="radio" name="place" value="Gold"> Outside Zambia</label>
+
+                        </fieldset>
+                
+                        <fieldset>
+                            <legend>Type your Questions Here</legend>
+                            <div>Share your questions and thoughts with us!*</div>
+                            <label>
+                                <textarea rows="7" cols="34" name="business" maxlength="500" required></textarea>
+                            </label>
+                
+                            <!--A hidden field that contains the current date and time that the form was loaded by the user.-->
+                            <label class="top"><input type="hidden" name="date-time" id="date-time-loaded"></label>
+                
+                        </fieldset>
+                
+                
+                        <input type="submit" value="Send Question" class="submitBtn">
+                    </form>
+                </div>
+
+            <div class="contact-us-section">
+                <h2>Contact Us</h2>
+                <div class="contact-us-address">
+                    <span><b>Address:</b> 2801 Buteko Road,Town Center Ndola Copperbelt, ZM.</span><br>
+                    <span><b>E-mail:</b> ncc@gmail.com</span><br>
+                    <span><b>Monday to Friday: </b>09Hrs - 17Hrs</span><br>
+                    <span><b>Contact Number:</b> +260974 211236</span>
+                </div>
+            </div>
+
+        </div>
        
         
     </main>
