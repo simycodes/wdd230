@@ -556,31 +556,49 @@ img {
 .join-grid {
     display: block;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 15px;
+    border-radius: 6px;
+}
+
+.join-grid h2 {
+    width:280px;
+}
+
+.flex-heading {
+    display: flex;
+}
+
+h2.join-invite-title{
+    font-size: 1.4rem;
+    text-align: left;
+    width:400px;
 }
 
 .join-news {
-    background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 10px;
-    text-align: center;
     margin-top: 1.5rem;
 }
 
 .membership-card {
     background-color: #E3E4E5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 15px;
+    padding: 8px;
+    margin-left: 12px;
+    margin-right: 15px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+    border-radius: 6px;
     text-align: center;
     display: none;
+}
+
+.benefits {
+    margin: 0.7rem auto;
+    max-width: 25rem;
 }
 
 
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #4F0540;
-    border-radius: 10px;
+    border: 2px solid #4F0540;
+    border-radius: 6px;
     padding: .5rem 2%;
 }
 
@@ -674,16 +692,6 @@ textarea:valid {
 
 /*-----------END OF FORM --------------*/
 
-.benefits {
-    margin: 0.7rem auto;
-    max-width: 25rem;
-}
-
-.join-invite-title {
-    font-size: 1.7rem;
-    text-align: left;
-    max-width:50rem;
-}
 
 
 /*----- END OF JOIN PAGE SPECIFIC STYLES -------*/

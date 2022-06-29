@@ -257,6 +257,12 @@ main div {
     display: block;
 }
 
+h2.join-invite-title {
+    font-size: 1.7rem;
+    width: 650px;
+    margin-left: 0px;
+}
+
 /* form styles */
 
 form label.sbs {

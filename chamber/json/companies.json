@@ -1,14 +1,16 @@
 {
   "companies": [
     {
+      "id": "0",
       "name": "Smart Gents and Queens Salon",
       "address": "5 Buteko Road,Ndola.Zambia",
       "number": "(+260) 969 180097",
       "image": "json/images/smartgents.png",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Bronze",
       "websiteurl":"https://personal-site-for-wdd-130.glitch.me/"
     },
     {
+      "id": "1",
       "name": "Mwaiseni Maisonettes",
       "address": "Itawa Extension,Ndola.Zambia",
       "number": "(+260)97 4372761",
@@ -17,22 +19,25 @@
       "websiteurl":"https://www.booking.com"
     },
      {
+      "id": "2",
       "name": "Zamtel",
       "address": "3234 President Avenue,Ndola.Zambia",
       "number": "(+260) 969 180097",
       "image": "json/images/zamtel.jpg",
-      "membershiplevel": "Silver",
+      "membershiplevel": "Gold",
       "websiteurl":"https://www.zamtel.zm/"
     },
      {
+      "id": "3",
       "name": "MTN",
       "address": "16 Shinde Rd,Ndola.Zambia",
       "number": "(+260) 956 836368",
       "image": "json/images/mtn.jpg",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Silver",
       "websiteurl":"https://www.mtn.zm/"
     },
      {
+      "id": "4",
       "name": "Pick and Pay",
       "address": "1021 Commando Road,Ndola.Zambia",
       "number": "(+260) 969 180097",
@@ -41,30 +46,34 @@
       "websiteurl":"https://www.picknpayzambia.com/"
     },
      {
+      "id": "5",
       "name": "Handymans Paradise",
       "address": "18 Buteko,Ndola.Zambia",
       "number": "(+260) 956 836368",
       "image": "json/images/handymans.jpg",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Bronze",
       "websiteurl":"https://www.handymans.info/"
     },
      {
+      "id": "6",
       "name": "Shop Rite",
       "address": "1002 President Avenue,Ndola.Zambia",
       "number": "(+260) 969 180097",
       "image": "json/images/shoprite.jpg",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Silver",
       "websiteurl":"https://www.shoprite.co.zm/"
     },
     {
+      "id": "7",
       "name": "Airtel",
       "address": "Shop 2 - Watch It Grow,Ndola.Zambia",
       "number": "(+260) 974 372761",
       "image": "json/images/airtel.jpg",
-      "membershiplevel": "Gold",
+      "membershiplevel": "Silver",
       "websiteurl":"https://www.airtel.co.zm/"
     },
      {
+      "id": "8",
       "name": "Ndola Chamber of Commerce",
       "address": "42 Tusha Road,Ndola.Zambia",
       "number": "(+260) 956 836368",

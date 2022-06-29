@@ -1,6 +1,6 @@
 /* 39em is also 560px (if basefont is 16px) */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 40em) {
 
 
 /*----------- BODY --------------*/
@@ -261,6 +261,13 @@ img {
 
 .membership-card {
     display: block;
+}
+
+h2.join-invite-title {
+    font-size: 1.7rem;
+    text-align: left;
+    width:400px;
+    margin-left: -20px;
 }
 
 /*-----END OF JOIN PAGE SPECIFIC STYLES --------------*/

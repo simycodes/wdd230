@@ -12,7 +12,9 @@ fetch(requestURL).then(function (response) {
     const companies = jsonObject['companies'];
     companies.forEach(displayCompanies);
     //prophets.forEach(displayProphets);
+    companies.forEach(displayCompanySpotLights)
 });
+
 
 
 function displayCompanies(company) {
@@ -66,8 +68,30 @@ function displayCompanies(company) {
   // card.appendChild(phoneNumber);
   // card.appendChild(companyUrl);
 
+
+
   // Add/append the the card element(section) to the div element having the class named cards
   document.querySelector('div.cards').appendChild(card);
 
 }
+
+
+
+ //Setting spotlight information for 2 gold companies
+  //   const headingSpotlightOne = document.getElementById("heading-spotlight-one");
+  //   const imageSpotlightOne = document.getElementById("image-spotlight-one");
+  //   const paragraphSpotlightOne = document.getElementById("paragraph-spotlight-one");
+
+  //   imageSpotlightOne.setAttribute('src', company.image);
+  //   imageSpotlightOne.setAttribute("alt",`Company logo image of ${company.name}`);
+
+  //   const headingSpotlightTwo = document.getElementById("heading-spotlight-two");
+  //   const imageSpotlightTwo = document.getElementById("image-spotlight-two");
+  //   const paragraphSpotlightTwo = document.getElementById("paragraph-spotlight-two");
+
+  //   imageSpotlightTwo.setAttribute('src', company.image);
+  //   imageSpotlightTwo.setAttribute("alt",`Company logo image of ${company.name}`);
+
+
+
 
