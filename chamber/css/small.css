@@ -167,8 +167,7 @@ nav ul.open {
 
 main {
     padding: 0 2%;
-    min-height: 10rem;
-    
+    min-height: 10rem;  
 }
 
 main h1 {
@@ -184,8 +183,9 @@ main h2 {
     color:#4F0540;
     background-color: #4FD0E0;
     padding:8px;
+    width:auto;
     border-radius: 6px;
-    margin-left: 15px;
+    margin-left: 40px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -195,9 +195,7 @@ main p {
 
 main div {
     margin-bottom: 0.5rem;
-    /* border:1px solid #0196ED; */
     padding: 0.2rem;
-    /* background-color: #E3E4E5; */
 }
 
 main figure img {
@@ -210,6 +208,18 @@ main figure {
     width: 100%;
     margin: 0;
 }
+
+.spotlight-image {
+    width:240px;
+    margin: 0 auto;
+}
+
+.spotlight-image img{
+   display: block;
+   border-radius: 8%;
+}
+
+
 
 /* grid related css for the main section */
 .home-grid {
@@ -365,19 +375,26 @@ main picture.photoA img {
 .weather-top-information {
     display: flex;
     justify-content: space-evenly;
-    background-color: #FEFEFE;
-    border: 1px solid #0196ED;
+    /* background-color: #FEFEFE;
+    border: 1px solid #0196ED; */
     border-radius: 6px;
 }
 
 
-.weather-top-information img {
-    width: 100%;
-    height: 60px;
-}
-
 .weather-top-information h3 {
     margin-right: 20px;
+}
+
+.weather-image {
+    width:120px;
+    border: 1px solid #0286B4;
+    border-radius: 50%;
+}
+
+.weather-image img {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
 }
 
 /* #weather_icon {

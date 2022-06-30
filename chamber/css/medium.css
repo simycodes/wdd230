@@ -96,6 +96,13 @@ img {
     grid-column: 1 / 11;
     grid-row: 1 / 3;
     position: relative;
+    height:760px;
+}
+
+
+.actual-hero-image img {
+    display: block;
+    height: 760px;
 }
 
 .news-release {
@@ -136,7 +143,6 @@ img {
     right: 180px;
     border: 1px solid #0196ED;
     padding: 1rem;
-    color:black;
 }
 
 .information button {
@@ -152,6 +158,17 @@ img {
     top: 10px;
     left: 5px;
     color: #FEFEFE;
+}
+
+
+.spotlight-image {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.spotlight-image img {
+    display: block;
+    border-radius: 8%;
 }
 
 
