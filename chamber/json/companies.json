@@ -7,7 +7,8 @@
       "number": "(+260) 969 180097",
       "image": "json/images/smartgents.png",
       "membershiplevel": "Bronze",
-      "websiteurl":"https://personal-site-for-wdd-130.glitch.me/"
+      "websiteurl":"https://personal-site-for-wdd-130.glitch.me/",
+      "message":"The Best Salon in Ndola!Located on 5 Buteko Road,Ndola."
     },
     {
       "id": "1",
@@ -16,7 +17,8 @@
       "number": "(+260)97 4372761",
       "image": "json/images/mwaiseni.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://www.booking.com"
+      "websiteurl":"https://www.booking.com",
+      "message":"The Best Self-Catering Guest House in Ndola! Call +260-979251773"
     },
      {
       "id": "2",
@@ -25,7 +27,8 @@
       "number": "(+260) 969 180097",
       "image": "json/images/zamtel.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://www.zamtel.zm/"
+      "websiteurl":"https://www.zamtel.zm/",
+      "message":"Zambias Number 1 Network!"
     },
      {
       "id": "3",
@@ -34,7 +37,8 @@
       "number": "(+260) 956 836368",
       "image": "json/images/mtn.jpg",
       "membershiplevel": "Silver",
-      "websiteurl":"https://www.mtn.zm/"
+      "websiteurl":"https://www.mtn.zm/",
+      "message":"Everywhere you go!Join us."
     },
      {
       "id": "4",
@@ -43,7 +47,8 @@
       "number": "(+260) 969 180097",
       "image": "json/images/pnp.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://www.picknpayzambia.com/"
+      "websiteurl":"https://www.picknpayzambia.com/",
+      "message":"For all your shopping needs!"
     },
      {
       "id": "5",
@@ -52,7 +57,8 @@
       "number": "(+260) 956 836368",
       "image": "json/images/handymans.jpg",
       "membershiplevel": "Bronze",
-      "websiteurl":"https://www.handymans.info/"
+      "websiteurl":"https://www.handymans.info/",
+      "message":"The Best Hardware Store in Ndola"
     },
      {
       "id": "6",
@@ -61,7 +67,8 @@
       "number": "(+260) 969 180097",
       "image": "json/images/shoprite.jpg",
       "membershiplevel": "Gold",
-      "websiteurl":"https://www.shoprite.co.zm/"
+      "websiteurl":"https://www.shoprite.co.zm/",
+      "message":"Your Favorite Store for all your all Groceries!"
     },
     {
       "id": "7",
@@ -70,7 +77,8 @@
       "number": "(+260) 974 372761",
       "image": "json/images/airtel.jpg",
       "membershiplevel": "Silver",
-      "websiteurl":"https://www.airtel.co.zm/"
+      "websiteurl":"https://www.airtel.co.zm/",
+      "message":"Here to serve you!"
     },
      {
       "id": "8",
@@ -79,7 +87,8 @@
       "number": "(+260) 956 836368",
       "image": "json/images/ncc.png",
       "membershiplevel": "Gold",
-      "websiteurl":"index.html"
+      "websiteurl":"index.html",
+      "message":"Shedding more light on your business!"
     }
   ]
 }
