@@ -62,8 +62,6 @@ main div {
     height:300px;
 } */
 
-
-
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -121,6 +119,14 @@ main div {
     height: 220px;
 }
 
+.spotlight-image img {
+    transition: width 2s, transform 2s;
+}
+
+.spotlight-image img:hover {
+    transform: scaleX(0.9);
+}
+
 /* css for the information inside the hero banner image */
 .information {
     position: absolute;
@@ -135,7 +141,6 @@ main div {
     margin-left:85px;
     padding: 0.8rem;
     border-radius: 6px;
-
 }
 
 .call-to-action {
@@ -145,8 +150,6 @@ main div {
     color:#FEFEFE;
 }
 
-
-
 /*----- DISCOVER PAGE SPECIFIC STYLES --------------*/
 /* .discover-heading {
     margin-left:100px;
@@ -155,7 +158,6 @@ main div {
 .top-information {
    display:flex;
 }
-
 
 .discover-grid {
     display: grid;
@@ -269,6 +271,18 @@ form label.sbs {
 /*-----END OF JOIN PAGE SPECIFIC STYLES --------------*/
 
 
+/*-----DIRECTORY PAGE SPECIFIC STYLES --------------*/
+
+.cards img {
+    transition: width 2s, transform 1s;
+}
+
+.cards img:hover {
+    transform: scaleX(0.9);
+}
+
+/*-----END OF DIRECTORY PAGE SPECIFIC STYLES --------------*/
+
 /*----- START OF CONTACT US SPECIFIC STYLES -------*/
 
 .contact-grid {
@@ -287,9 +301,39 @@ form label.sbs {
     background-color: #FEFEFE;
     width: 750px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: -1px;
     border-radius: 8px;
     padding: 1rem;
+}
+
+.invite-questions {
+    grid-column: 1 / 4;
+    height:190px;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 2.2rem;
+    padding: 1.4rem;
+    background-color: #E3E4E5;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.contact-us-section {
+    grid-column: 4 / 5;
+    grid-row: 1 / 1;
+    width: 400px;
+    height: 300px;
+    padding: 1.4rem;
+    margin-top: 2.2rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.contact-us-address {
+    margin-top: -15px;
 }
 
 .contact-form-information h2.first-heading{
@@ -301,47 +345,17 @@ form label.sbs {
     width: 430px;
 }
 
-.invite-questions {
-    padding: 1.4rem;
-    background-color: #E3E4E5;
-    border-radius: 10px;
-    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
-    
-}
-
-.contact-us-section {
-    grid-column: 4 / 5;
-    grid-row: 1 / 1;
-    width: 400px;
-    height: 300px;
-    padding:1.4rem;
-    margin-top: 2.2rem;
-    margin-left: 3rem;
-    
-    border-radius: 10px;
-    text-align: center;
-    background-color: #E3E4E5;
-    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
-}
-
 .contact-us-section h2 {
     font-size: 2.2rem;
     border-radius: 7px;
 }
 
-
-
-
-
 /*----- END OF CONTACT US SPECIFIC STYLES -------*/
-
 
 /*----------- FOOTER --------------*/
 
 footer p {
     font-size:1rem;
 }
-
-
-    
+   
 } /* end of media query */

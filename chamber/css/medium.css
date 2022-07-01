@@ -2,10 +2,7 @@
 
 @media only screen and (min-width: 40em) {
 
-
 /*----------- BODY --------------*/
-
-
 
 /*----------- HEADER --------------*/
 header {
@@ -32,7 +29,6 @@ header h2 {
     display: flex;
     margin-left: 2%;
 }
-
 nav ul li a{padding: .5rem 1rem;} */
 
 /*----------- code for the toggle menu functionality --------------*/
@@ -55,7 +51,6 @@ nav ul li a {
     margin-left: 15px;
 }
 
-
 /*----------- MAIN --------------*/
 
 main div {
@@ -63,6 +58,7 @@ main div {
 }
 
 main h1 {
+    font-size: 2.3rem;
     letter-spacing: 0.2rem;
     margin-left: 20px;
 }
@@ -77,7 +73,6 @@ p,
 img {
     margin-left: 0.5rem;
 }
-
 
 .home-grid {
     display: grid;
@@ -98,7 +93,6 @@ img {
     position: relative;
     height:760px;
 }
-
 
 .actual-hero-image img {
     display: block;
@@ -160,7 +154,6 @@ img {
     color: #FEFEFE;
 }
 
-
 .spotlight-image {
     width: 200px;
     margin: 0 auto;
@@ -170,7 +163,6 @@ img {
     display: block;
     border-radius: 8%;
 }
-
 
 /*----- DISCOVER PAGE SPECIFIC STYLES --------------*/
 
@@ -320,8 +312,6 @@ h2.join-invite-title {
 
 /*-----END OF DIRECTORY PAGE SPECIFIC STYLES --------------*/
 
-
-
 /*----------- FOOTER --------------*/
 footer p {
     font-size: .9rem;
@@ -350,10 +340,69 @@ footer p {
     margin-left: 2rem;
 }
 
-
 /*----- START OF CONTACT US SPECIFIC STYLES -------*/
-.contact-grid {}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 0.5em;
+}
 
+.contact-form-information {
+    grid-column: 1 / 4;
+    background-color: #FEFEFE;
+    width: 400px;
+    margin-left: 1px;
+    margin-top: -150px;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.invite-questions {
+    grid-column: 1 / 4;
+    width:400px;
+    height: 200px;
+    margin-left: 5px;
+    margin-top: .5rem;
+    padding: 1.4rem;
+    background-color: #E3E4E5;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.contact-us-section {
+    grid-column: 4 / 5;
+    grid-row: 1 / 1;
+    width: 300px;
+    height: 350px;
+    padding: 1.4rem;
+    margin-top: .5rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E3E4E5;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.contact-us-address {
+    margin-top:-30px;
+}
+
+.contact-form-information h2.first-heading {
+    font-size: 1.6rem;
+    width: 400px;
+    text-align: left;
+}
+
+.contact-form-information h2.second-heading {
+    width: 410px;
+    text-align: center;
+}
+
+.contact-us-section h2 {
+    font-size: 2.2rem;
+    border-radius: 7px;
+}
 
 
 /*----- END OF CONTACT US SPECIFIC STYLES -------*/
