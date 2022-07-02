@@ -40,14 +40,6 @@ header div {
     margin-left: 5px
 }
 
-.top-date {
-    font-size: 0.9rem;
-    grid-column:span 2;
-    text-align: center;
-    margin-bottom: -1.3rem;
-    color: #FEFEFE;
-}
-
 h1,h2,h3,h4 {
     font-family: 'Roboto', sans-serif;
 } 
@@ -70,8 +62,21 @@ header p {
     color: #FEFEFE;
 }
 
+.top-date {
+    font-size: 0.9rem;
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: -1rem;
+    font-style: italic;
+}
+
+p#currentYear {
+    font-size: 0.9rem;
+}
+
 .logo {
     width: 130px;
+    cursor: pointer;
 }
 
 #display-message {
