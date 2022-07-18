@@ -9,7 +9,7 @@
       "email": "Log into LDS account to send email to temple",
       "services":"Patron housing available, Distribution center nearby, Cafeteria available, Clothing rental available",
       "ordinanceSchedule":"Contact the temple for Ordinance schedule details",
-      "sessionSchedule":"Visit https://www.churchofjesuschrist.org/temples",
+      "sessionSchedule":"Contact the temple for Session Schedule details",
       "templeClosureSchedule":"6 Aug 2022, 1 Oct 2022, 3 Oct 2022, 17 Oct 2022, 24 Dec 2022, 31 Dec 2022",
       "image": "json/images/cochabamba-bolivia-temple.jpg"
     }, 
@@ -22,7 +22,7 @@
       "email": "Log into LDS account to send email to temple",
       "services":"Patron housing available, Distribution center nearby, No cafeteria available, No clothing rental available",
       "ordinanceSchedule":"Contact the temple for Ordinance schedule details",
-      "sessionSchedule":"Visit https://www.churchofjesuschrist.org/temples",
+      "sessionSchedule":"Contact the temple for Session Schedule details",
       "templeClosureSchedule":"Saturday: 1 October 2022, Wednesday: 23 November 2022, Thursday: 24 November 2022, Saturday: 24 December 2022, Saturday: 31 December 2022",
       "image": "json/images/johannesburg-south-africa-temple.jpg"
     }, 
@@ -35,7 +35,7 @@
       "email": "Log into LDS account to send email to temple",
       "services":"Patron housing available, Distribution center nearby, No cafeteria available, No clothing rental available",
       "ordinanceSchedule":"Contact the temple for Ordinance schedule details",
-      "sessionSchedule":"Visit https://www.churchofjesuschrist.org/temples",
+      "sessionSchedule":"Contact the temple for Session Schedule details",
       "templeClosureSchedule":"20 Aug 2022, 13 Sept 2022, 26 Sept 2022, 25 Dec 2022, 26 Dec 2022",
       "image": "json/images/accra-ghana-temple.jpg"
     }, 
@@ -48,7 +48,7 @@
       "email": "Log into LDS account to send email to temple",
       "services":"Patron housing available, Distribution center nearby, Clothing rental available, No cafeteria available",
       "ordinanceSchedule":"Contact the temple for Ordinance schedule details",
-      "sessionSchedule":"Visit https://www.churchofjesuschrist.org/temples",
+      "sessionSchedule":"Contact the temple for Session Schedule details",
       "templeClosureSchedule":"Saturday: 1 October 2022, Wednesday: 23 November 2022, Thursday: 24 November 2022, Saturday: 24 December 2022, Saturday: 31 December 2022",
       "image": "json/images/london-england-temple.jpg"
     },
@@ -61,7 +61,7 @@
       "email": "Log into LDS account to send email to temple",
       "services":"Patron housing available, Distribution center nearby, No cafeteria available, No clothing rental available",
       "ordinanceSchedule":"Contact the temple for Ordinance schedule details",
-      "sessionSchedule":"Visit https://www.churchofjesuschrist.org/temples",
+      "sessionSchedule":"Contact the temple for Session Schedule details",
       "templeClosureSchedule":"Saturday: 1 October 2022, Wednesday: 23 November 2022, Thursday: 24 November 2022, Saturday: 24 December 2022, Saturday: 31 December 2022",
       "image": "json/images/durban-south-africa-temple.jpg"
     }
